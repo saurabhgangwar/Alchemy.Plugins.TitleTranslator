@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<plugin xmlns:c="http://www.alchemywebstore.com/configuration/definitions" xmlns="http://www.alchemywebstore.com/">
+  <name>TitleTranslator</name>
+  <description><![CDATA[This plugin is used to treanslate the title of the tridion items. Translated titles would be shown in notification bar.]]></description>
+  <settings>
+    <client>
+      <ProviderSettings>
+        <SDL>
+          <!--SDL Translation API Key-->
+          <ApiKey>
+          </ApiKey>
+          <!--Translation Language Code-->
+          <TranslateLanguage>eng</TranslateLanguage>
+        </SDL>
+      </ProviderSettings>
+    </client>
+  </settings>
+</plugin>
